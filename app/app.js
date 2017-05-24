@@ -6,9 +6,8 @@ function getDescendingNumbers(start, stop)
     var result = start;
     for (var i = start - 1; i >= stop; i--) {
         result = result + ' ' + i;
-
-        return resul;
     }
+        return result;
 }
 
 module.exports = {
